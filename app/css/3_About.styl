@@ -1,3 +1,58 @@
 .about
-    height 100vh
+    min-height 700px
     width 100%
+    background  url(../img/about_bg.png) center no-repeat
+    background-size cover
+    background-attachment fixed
+    &__container
+        max-width 1600px
+        margin 0 auto
+        height 100%
+        text-align center
+        display flex
+        justify-content center
+        align-items center
+        flex-direction row
+        flex-wrap wrap-reverse
+    &__photo
+        width 720px
+        position relative
+        height 700px
+    &__lowerPhoto
+        position absolute
+        height auto
+        width auto
+        max-width 100%
+        max-height 100%
+        left 7vh
+        top 7vh
+    &__upperPhoto
+        position absolute
+        height auto
+        width auto
+        max-width 100%
+        left 0vh
+        max-height 100%
+        top 30vh
+    &__description
+        width 720px
+        height 700px
+        color #fff
+        display flex
+        flex-direction column
+        text-align left
+        justify-content center
+        padding 0 80px
+        box-sizing border-box
+    &__title
+        font-family 'Outrun'
+        font-size 24px
+        color #515fa2
+        font-weight bold
+    &__header
+        font-family 'Outrun'
+        font-size 60px
+        margin-bottom 20px
+    &__text
+        font-family 'Montserrat'
+        font-size 14px
