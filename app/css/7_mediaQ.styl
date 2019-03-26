@@ -1,45 +1,56 @@
 @media screen and (max-width 1440px)
-    .about__description
-        height 400px
-    .about__photo
-        height 800px
+    .about
+        &__description
+            height 400px
+        &__photo
+            height 800px
 @media screen and (max-width 991px)
-    .home__header
-        font-size 150px
-    .home__subheader
-        font-size 30px 768
+    .home
+        &__header
+            font-size 150px
+        &__subheader
+            font-size 30px 768
 @media screen and (max-width 767px)
     .home
         padding 50px 0
-    .home__navigation
-        display none
-    .home__hidden
-        display block
-    .home__header
-        font-size 88px
-        line-height 160px
-    .home__subheader
-        font-size 25px 
-    .about__lowerPhoto
-        left 0
-        top 0
-    .about__upperPhoto
-        top 20vh
-    .about__header
-        line-height 60px
-    .joinUs__header
-        line-height 120px
-    .joinUs__button
-        margin-top 60px
+        &__navigation
+            display none
+        &__toggle
+            display block
+        &__hidMenu
+            display flex
+        &__hidden
+            display block
+        &__menu-close
+            display block
+        &__header
+            font-size 88px
+            line-height 160px
+        &__subheader
+            font-size 25px 
+    .about
+        &__lowerPhoto
+            left 0
+            top 0
+        &__upperPhoto
+            top 20vh
+        &__header
+            line-height 60px
+    .joinUs
+        &__header
+            line-height 120px
+        &__button
+            margin-top 60px
 @media screen and (max-width 425px)
     .home
         padding 30px 0
-    .home__header
-        font-size 65px
-    .home__subheader
-        font-size 16px 
-    .about__description
-        padding 0px 40px
-        height 360px
-    .about__photo
-        height 440px
+        &__header
+            font-size 65px
+        &__subheader
+            font-size 16px 
+    .about
+        &__description
+            padding 0px 40px
+            height 360px
+        &__photo
+            height 440px
