@@ -5,9 +5,12 @@
     background-size cover 
     background-repeat no-repeat
     background-position center center 
-    padding 100px 0
     box-sizing border-box
     position relative
+    text-align center
+    display flex
+    flex-direction column
+    justify-content center
     &__hidden
         display none
         position absolute
@@ -38,15 +41,6 @@
         text-align center
         &-closed
             display flex
-    &__container
-        max-width 1600px
-        margin 0 auto
-        height 100%
-        text-align center
-        display flex
-        justify-content center
-        align-items center
-        flex-direction column
     &__navigation
         margin 0 auto
         font-size 24px
@@ -56,6 +50,7 @@
         justify-content center
         max-width 100%
         flex-wrap wrap
+        margin-bottom: 100px;
     &__navItem
         position relative
     &__lines
@@ -120,7 +115,7 @@
         font-size 18px
         background url('../img/Button.png') 
         background-size cover
-
+        align-self center
     &__hidMenu-close 
         transform scale(0.01)
         opacity 0
