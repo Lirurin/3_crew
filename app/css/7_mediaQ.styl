@@ -9,7 +9,23 @@
         &__header
             font-size 150px
         &__subheader
-            font-size 30px 768
+            font-size 30px
+@media screen and (max-width 991px) and (max-height 425px) 
+    .home
+        &__toggle
+            display block
+        &__navigation
+            display none
+        &__toggle
+            display block
+        &__hidMenu
+            display flex
+        &__hidden
+            display block
+        &__menu-close
+            display block
+        &__subheader
+            margin-bottom 20px 
 @media screen and (max-width 767px)
     .home
         padding 50px 0
@@ -35,7 +51,7 @@
         &__upperPhoto
             top 20vh
         &__header
-            line-height 60px
+            line-height 86px
     .joinUs
         &__header
             line-height 100px
@@ -44,7 +60,7 @@
 @media screen and (max-width 767px) and (max-height 425px) 
     .home
         &__subheader
-            margin-bottom 0
+            margin-bottom 20px
 @media screen and (max-width 425px)
     .home
         padding 30px 0
