@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function(){
     var controlEnb = document.querySelectorAll('#controls .control');
     var toggler = document.querySelector('.home__toggle');
     var navList = document.querySelector('.home__hidList');
-    var navigation = document.querySelector('navigation');
+    var navigation = document.querySelector('nav');
     var currentSlide = 0;
     var sliderDots = document.getElementsByClassName("control_button");
     var slideInterval = setInterval(nextSlide,8000);
